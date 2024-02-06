@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jockey One";
+  background-color: rgb(27, 26, 26);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li,
+ul {
+  list-style: none;
+  font-family: "Jockey One";
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 85px;
+  width: 95px;
+
+}
+
+Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Wrapper {
+  background-color: #313131;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+}
+
+.Title {
+  color: white;
+  font-family: "Inter";
+  font-size: 30px;
+}
+
+.Title2 {
+  color: yellowgreen;
+  font-family: "Inter";
+  font-size: 15px;
+}
+
+.Parag1 {
+  color: gray;
+  font-family: "Inter";
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Lista1 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.BotaoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.Botoes{
+  padding: 10px 85px 10px 85px;
+  background-color: #484747;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
